@@ -11,12 +11,14 @@ namespace ConsoleApplication3
         static void Main(string[] args)
         {
 
-            int mn = int.MinValue;
-            int mss = int.MaxValue;
-            
-            Console.WriteLine("mian1= {0} \nmain2 = {1}\n", mn, mss);
 
+            int A = 'A';
+            int a = 'a';
+
+        
+            Console.WriteLine("tis is num  capital A = {0} tis is num Small  a = {1}", A, a);
             Console.ReadKey();
+            
 
         }
     }
