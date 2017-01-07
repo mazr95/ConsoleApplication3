@@ -10,6 +10,14 @@ namespace ConsoleApplication3
     {
         static void Main(string[] args)
         {
+
+            int mn = int.MinValue;
+            int mss = int.MaxValue;
+            
+            Console.WriteLine("mian1= {0} \nmain2 = {1}\n", mn, mss);
+
+            Console.ReadKey();
+
         }
     }
 }
